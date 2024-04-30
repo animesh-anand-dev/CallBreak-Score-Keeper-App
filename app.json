@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "CallBreakPointsCalculator",
-    "slug": "CallBreakPointsCalculator",
+    "name": "CallBreak Score Keeper",
+    "slug": "CallBreakScoreKeeper",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,24 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "minSdkVersion": 26,
+      "package": "com.animesh.dev.CallBreakScoreKeeper"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d0b1f836-28b6-485d-bb10-5f60108278df"
+      }
+    },
+    "updates": {
+      "enabled": true
     }
+  },
+  "react-native-google-mobile-ads": {
+    "android_app_id": "ca-app-pub-3748576757294285~5224997165",
+    "ios_app_id": "ca-app-pub-xxxxxxxx~xxxxxxxx"
   }
 }
